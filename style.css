@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .q12, .q13, .q14, .q15, .q16, .q17{
+    display: flex;
+    border: dotted 3px #808080;
+}
+
+.box, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16, .box17{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00f;
+    margin: 1%;
+}
+
+
+.q1{
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.q3{
+    justify-content: center;
+}
+
+.q4, .q5{
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.q5{
+    flex-direction: row-reverse;
+}
+
+.q6{
+    flex-direction: column;
+}
+
+.conj{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conj2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.q7{
+    justify-content: center;
+    align-items: center;
+}
+
+.q8{
+    width: 60%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8:nth-child(1){
+    height: 200px;
+}
+
+.box8:nth-child(3){
+    height: 300px;
+}
+
+.q9{
+    width: 60%;
+    height: 400px;
+    align-items: stretch;
+}
+
+.box9{
+    width: 33%;
+    height: auto;
+}
+
+.box10:nth-child(2), .box11:nth-child(2), .box12:nth-child(2), .box13:nth-child(2), .box14:nth-child(2), .box15:nth-child(2), .box16:nth-child(2){
+    background-color: #f00;
+}
+
+.box11:nth-child(2){
+    order: -1;
+}
+
+.box12:nth-child(1){
+    order: 2;
+}
+
+.box12:nth-child(2){
+    order: 3;
+}
+
+.box12:nth-child(3){
+    order: 1;
+}
+
+.box12:nth-child(4){
+    order: 4;
+}
+
+.q13, .q14, .q15, .q16{
+    height: 400px;
+    align-items: center;
+}
+
+.box13:nth-child(2){
+    align-self: flex-start;
+}
+
+.box14:nth-child(2){
+    align-self: flex-end;
+}
+
+.box15:nth-child(2){
+    height: auto;
+    align-self: stretch;
+}
+
+.box16:nth-child(1), .box16:nth-child(3){
+    width: 20%;
+}
+
+.box16:nth-child(2){
+    width: 60%;
+}
+
+.box17:nth-child(1), .box17:nth-child(3){
+    width: 40%;
+}
+
+.box17:nth-child(2){
+    width: 20%;
+}
